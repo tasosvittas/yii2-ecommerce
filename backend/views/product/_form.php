@@ -32,17 +32,16 @@ use dosamigos\ckeditor\CKEditor;
 <!--    </div>-->
 
     <?= $form->field($model, 'imageFile', [
-            'template' => '
-                    <div class="custom-file">
-                        {input} 
-                        {label}
-                        {error}
+        'template' => '
+                <div class="custom-file">
+                    {input}
+                    {label}
+                    {error}
                 </div>
             ',
         'labelOptions' => ['class' => 'custom-file-label'],
         'inputOptions' => ['class' => 'custom-file-input']
-    ])->fileInput(['type' => 'file']) ?>
-
+    ])->textInput(['type' => 'file']) ?>
     <?= $form->field($model, 'price')->textInput([
             'maxlength' => true,
         'type' => 'number'

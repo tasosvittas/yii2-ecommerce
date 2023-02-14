@@ -69,7 +69,7 @@ class ProductController extends Controller
     public function actionCreate()
     {
         $model = new Product();
-        $model->imageFile = UploadedFile::getInstance($model,'imageFile');
+        $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
 //        echo '<pre>';
 //        var_dump($_FILES);
 //        echo '</pre>';

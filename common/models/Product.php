@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\helpers\FileHelper;
 use yii\web\UploadedFile;
 
 /**
@@ -115,13 +116,28 @@ class Product extends \yii\db\ActiveRecord
     }
     public function save($runValidation = true, $attributeNames = null)
     {
+
+//        echo '<pre>';
+//        var_dump($this->imageFile);
+//        echo '</pre>';
+//        exit;
+//        return parent::save($runValidation, $attributeNames);
+
         if($this->imageFile)
         {
-            echo '<pre>';
-            var_dump(Yii::getAlias('@frontend'));
-            echo '</pre>';
-            exit;
+        $this->image = '/products/' . Yii::$app->security->generateRandomString() . '/' . $this->imageFile->name;
         }
+
         $ok = parent::save($runValidation, $attributeNames);
+
+        if($ok)
+        {
+            $fullPath = Yii::getAlias('@frontend/web/storage'.$this->image);
+            $dir = dirname($fullPath);
+            FileHelper::createDirectory($dir);
+            $this->imageFile->saveAs($this->image);
+        }
+
+        return $ok;
     }
 }
