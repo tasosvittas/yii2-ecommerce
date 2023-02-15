@@ -135,7 +135,7 @@ class Product extends \yii\db\ActiveRecord
         {
             $fullPath = Yii::getAlias('@frontend/web/storage'.$this->image);
             $dir = dirname($fullPath);
-            if (FileHelper::createDirectory($dir) | !$this->imageFile->saveAs($fullPath))
+            if (!FileHelper::createDirectory($dir) | !$this->imageFile->saveAs($fullPath))
             {
                 $transaction->rollBack();
                 return false;

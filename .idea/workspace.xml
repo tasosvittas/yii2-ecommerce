@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cbf356-d691-4775-b48a-31a276386e0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii2-ecommerce.iml" beforeDir="false" />
+    <list default="true" id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/web/storage/products/LvUFmWxuteQ_DucagFdG2_8UvSc9LYFl/Screenshot_20221022_020716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/storage/products/b_p7gj4EHbvB3bE1unhy7b97012zikc9/Screenshot_20221022_023321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/console/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vagrant/config/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -26,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
@@ -126,26 +126,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ECON" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/backend/web">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32cbf356-d691-4775-b48a-31a276386e0e" name="Changes" comment="" />
+      <changelist id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="" />
       <created>1676391827086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676391827086</updated>
       <workItem from="1676391828290" duration="73000" />
+      <workItem from="1676459177040" duration="995000" />
     </task>
     <servers />
   </component>
