@@ -128,16 +128,21 @@ class Product extends \yii\db\ActiveRecord
         $this->image = '/products/' . Yii::$app->security->generateRandomString() . '/' . $this->imageFile->name;
         }
 
+        $transaction = Yii::$app->db->beginTransaction();
         $ok = parent::save($runValidation, $attributeNames);
 
         if($ok)
         {
             $fullPath = Yii::getAlias('@frontend/web/storage'.$this->image);
             $dir = dirname($fullPath);
-            FileHelper::createDirectory($dir);
-            $this->imageFile->saveAs($this->image);
+            if (FileHelper::createDirectory($dir) | !$this->imageFile->saveAs($fullPath))
+            {
+                $transaction->rollBack();
+                return false;
+            }
         }
 
+        $transaction->commit();
         return $ok;
     }
 }
