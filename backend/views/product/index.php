@@ -27,23 +27,35 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
 
             'id',
+            [
+                'attribute' => 'Product Image',
+                'content' => function ($model) {
+                    /** @var \common\models\Product $model */
+                    return Html::img($model->getImageUrl(), ['style' => 'width:100px']);
+                }
+            ],
             'name',
-            'description:ntext',
-            'image',
-            'price',
-            //'status',
-            //'created_at',
-            //'updated_at',
+            'price:currency',
+            [
+                'attribute' => 'status',
+                'content' => function ($model) {
+                    /** @var \common\models\Product $model */
+                    return Html::tag('span', $model->status ? 'Active' : 'Draft',[
+                            'class'=>$model->status ? 'badge badge-success' : 'badge badge-danger'
+                    ]);
+                }
+            ],
+            'created_at:datetime',
+            'updated_at:datetime',
             //'created_by',
             //'updated_by',
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Product $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
-                 }
+                }
             ],
         ],
     ]); ?>

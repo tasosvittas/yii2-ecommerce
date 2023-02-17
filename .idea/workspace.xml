@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/web/storage/products/LvUFmWxuteQ_DucagFdG2_8UvSc9LYFl/Screenshot_20221022_020716.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/web/storage/products/b_p7gj4EHbvB3bE1unhy7b97012zikc9/Screenshot_20221022_023321.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/product/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/params-local.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/console/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagrant/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vagrant/config/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +135,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="ECON" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/backend/web">
+    <configuration name="ECON" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/../">
       <method v="2" />
     </configuration>
   </component>
@@ -151,7 +148,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676391827086</updated>
       <workItem from="1676391828290" duration="73000" />
-      <workItem from="1676459177040" duration="995000" />
+      <workItem from="1676459177040" duration="2243000" />
+      <workItem from="1676557512940" duration="402000" />
+      <workItem from="1676622086362" duration="11144000" />
     </task>
     <servers />
   </component>
