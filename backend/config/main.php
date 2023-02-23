@@ -14,12 +14,11 @@ return [
     'modules' => [],
     'components' => [
         //formatter used for currency convert (Dollar to Euro)
-        'formatter' => [
-            'dateFormat' => 'dd.MM.yyyy',
-            'decimalSeparator' => ',',
-            'thousandSeparator' => ' ',
-            'currencyCode' => 'EUR',
-        ],
+//        'formatter' => [
+//            'decimalSeparator' => ',',
+//            'thousandSeparator' => ' ',
+//            'currencyCode' => 'EUR',
+//        ],
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],

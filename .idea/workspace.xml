@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/grid/ActionColumn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/product/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/product/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Product.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +133,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -150,11 +153,27 @@
       <workItem from="1676391828290" duration="73000" />
       <workItem from="1676459177040" duration="2243000" />
       <workItem from="1676557512940" duration="402000" />
-      <workItem from="1676622086362" duration="11144000" />
+      <workItem from="1676622086362" duration="11329000" />
+      <workItem from="1676645738660" duration="12000" />
+      <workItem from="1676880737090" duration="17000" />
+      <workItem from="1676880769199" duration="659000" />
+      <workItem from="1677054883969" duration="6230000" />
+      <workItem from="1677071598923" duration="4248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

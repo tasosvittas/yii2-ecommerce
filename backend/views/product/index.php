@@ -42,8 +42,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'status',
                 'content' => function ($model) {
                     /** @var \common\models\Product $model */
-                    return Html::tag('span', $model->status ? 'Active' : 'Draft',[
-                            'class'=>$model->status ? 'badge badge-success' : 'badge badge-danger'
+                    return Html::tag('span', $model->status ? 'Active' : 'Draft', [
+                        'class' => $model->status ? 'badge badge-success' : 'badge badge-danger'
                     ]);
                 }
             ],
@@ -51,12 +51,14 @@ $this->params['breadcrumbs'][] = $this->title;
             'updated_at:datetime',
             //'created_by',
             //'updated_by',
-            [
-                'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, Product $model, $key, $index, $column) {
-                    return Url::toRoute([$action, 'id' => $model->id]);
-                }
-            ],
+
+            ['class' => 'common\grid\ActionColumn'],
+//            [
+//                'class' => ActionColumn::className(),
+//                'urlCreator' => function ($action, Product $model, $key, $index, $column) {
+//                    return Url::toRoute([$action, 'id' => $model->id]);
+//                }
+//            ],
         ],
     ]); ?>
 
