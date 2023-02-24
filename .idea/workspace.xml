@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/grid/ActionColumn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/img/blank_image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/product/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/product/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Product.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,18 +121,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/yii2-ecommerce/frontend/web/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yii2-ecommerce\frontend\web\img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ECON" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/../">
       <method v="2" />
@@ -159,6 +161,8 @@
       <workItem from="1676880769199" duration="659000" />
       <workItem from="1677054883969" duration="6230000" />
       <workItem from="1677071598923" duration="4248000" />
+      <workItem from="1677155547052" duration="603000" />
+      <workItem from="1677226694665" duration="2849000" />
     </task>
     <servers />
   </component>
