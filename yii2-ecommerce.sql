@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Εξυπηρετητής: 127.0.0.1
--- Χρόνος δημιουργίας: 08 Φεβ 2023 στις 15:33:56
+-- Χρόνος δημιουργίας: 24 Φεβ 2023 στις 15:52:53
 -- Έκδοση διακομιστή: 10.4.27-MariaDB
 -- Έκδοση PHP: 7.4.33
 
@@ -126,6 +126,18 @@ CREATE TABLE `products` (
   `created_by` int(11) DEFAULT NULL,
   `updated_by` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Άδειασμα δεδομένων του πίνακα `products`
+--
+
+INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `status`, `created_at`, `updated_at`, `created_by`, `updated_by`) VALUES
+(4, 'Apple iPhone 14 5G (6GB/128GB) Blue ', '<p><strong>&Beta;&alpha;&sigma;&iota;&kappa;ά &chi;&alpha;&rho;&alpha;&kappa;&tau;&eta;&rho;&iota;&sigma;&tau;&iota;&kappa;ά:</strong></p>\r\n\r\n<p>&Mu;&omicron;&nu;&tau;έ&lambda;&omicron; 2022</p>\r\n\r\n<p>&Omicron;&theta;ό&nu;&eta; Super Retina XDR 6.1&quot;</p>\r\n\r\n<p>&Upsilon;&pi;&omicron;&sigma;&tau;ή&rho;&iota;&xi;&eta; NFC</p>\r\n\r\n<p>&Epsilon;&pi;&epsilon;&xi;&epsilon;&rho;&gamma;&alpha;&sigma;&tau;ή&sigmaf; A15 Bionic</p>\r\n\r\n<p>&Delta;&iota;&pi;&lambda;ή &Pi;ί&sigma;&omega; &Kappa;ά&mu;&epsilon;&rho;&alpha; 12MP/4K 60fps</p>\r\n\r\n<p>&Mu;&pi;&alpha;&tau;&alpha;&rho;ί&alpha; 3279mAh (50% &sigma;&epsilon; 30 min)</p>\r\n', '/products/UvxUgpMIB6sncn4rMJ80-ngW9yWlzYDx/xlarge_20220909104636_apple_iphone_14_5g_4gb_128gb_midnight.jpeg', '936.00', 1, 1677074291, 1677227161, 1, 1),
+(5, 'Apple iPhone 14 Pro Max 5G (6GB/128GB) Space Black', '<p><strong>&Beta;&alpha;&sigma;&iota;&kappa;ά &chi;&alpha;&rho;&alpha;&kappa;&tau;&eta;&rho;&iota;&sigma;&tau;&iota;&kappa;ά:</strong></p>\r\n\r\n<p>&Mu;&omicron;&nu;&tau;έ&lambda;&omicron; 2022</p>\r\n\r\n<p>&Omicron;&theta;ό&nu;&eta; Super Retina 6.7&quot; 120Hz</p>\r\n\r\n<p>&Upsilon;&pi;&omicron;&sigma;&tau;ή&rho;&iota;&xi;&eta; NFC</p>\r\n\r\n<p>&Nu;έ&omicron;&sigmaf; &epsilon;&pi;&epsilon;&xi;&epsilon;&rho;&gamma;&alpha;&sigma;&tau;ή&sigmaf; &Alpha;16 Bionic</p>\r\n\r\n<p>&Tau;&rho;&iota;&pi;&lambda;ή &pi;ί&sigma;&omega; &kappa;ά&mu;&epsilon;&rho;&alpha; 48MP/4&Kappa; 60 FPS</p>\r\n\r\n<p>&Mu;&pi;&alpha;&tau;&alpha;&rho;ί&alpha; 4323 mAh (50% &sigma;&epsilon; 30min)</p>\r\n', '/products/DoYSdiTRAoZ83jU3-5lHnvJwskcolqr2/14_pro_max_5g.jpeg', '1413.00', 1, 1677074444, 1677074444, 1, 1),
+(6, 'Apple MacBook Pro 14\" (2021) (M1-Pro 10-core/16GB/1TB SSD/Retina Display) Space Gray (US Keyboard)', '<p><strong>&Beta;&alpha;&sigma;&iota;&kappa;ά &chi;&alpha;&rho;&alpha;&kappa;&tau;&eta;&rho;&iota;&sigma;&tau;&iota;&kappa;ά:</strong></p>\r\n\r\n<p>&Mu;&omicron;&nu;&tau;έ&lambda;&omicron; 2021</p>\r\n\r\n<p>&Omicron;&theta;ό&nu;&eta; Retina XDR 3024x1964 120Hz</p>\r\n\r\n<p>10 &Pi;&upsilon;&rho;ή&nu;&epsilon;&sigmaf; 3.2Ghz</p>\r\n\r\n<p>Thunderbolt 4/WiFi 6</p>\r\n\r\n<p>&Alpha;&upsilon;&tau;&omicron;&nu;&omicron;&mu;ί&alpha; έ&omega;&sigmaf; 21 ώ&rho;&epsilon;&sigmaf;</p>\r\n\r\n<p>&Beta;ά&rho;&omicron;&sigmaf; 1.6kg</p>\r\n', '/products/U9SMjJWADevf7XfqYcCvJo4jC0duxXTY/xlarge_20211025105125_apple_macbook_pro_14_2021_m1_pro_10_core_16gb_1tb_retina_display_space_gray_us.jpeg', '2849.00', 1, 1677074536, 1677074536, 1, 1),
+(7, 'Apple Watch Series 8 Aluminium 41mm Αδιάβροχο με Παλμογράφο (Midnight with Midnight Sport Band)', '<p><strong>&Beta;&alpha;&sigma;&iota;&kappa;ά &chi;&alpha;&rho;&alpha;&kappa;&tau;&eta;&rho;&iota;&sigma;&tau;&iota;&kappa;ά:</strong></p>\r\n\r\n<p>&Mu;&omicron;&nu;&tau;έ&lambda;&omicron; 2022</p>\r\n\r\n<p>&Omicron;&theta;ό&nu;&eta; &alpha;&phi;ή&sigmaf; Retina Always-On</p>\r\n\r\n<p>&Delta;&iota;ά&rho;&kappa;&epsilon;&iota;&alpha; &mu;&pi;&alpha;&tau;&alpha;&rho;ί&alpha;&sigmaf; έ&omega;&sigmaf; 36 ώ&rho;&epsilon;&sigmaf;*</p>\r\n\r\n<p>24 ώ&rho;&eta; &pi;&alpha;&rho;&alpha;&kappa;&omicron;&lambda;&omicron;ύ&theta;&eta;&sigma;&eta; &pi;&alpha;&lambda;&mu;ώ&nu;</p>\r\n\r\n<p>&Kappa;&alpha;&tau;ά&lambda;&lambda;&eta;&lambda;&omicron; &gamma;&iota;&alpha; &kappa;&omicron;&lambda;ύ&mu;&beta;&eta;&sigma;&eta;</p>\r\n\r\n<p>NFC, Wi-Fi, GPS</p>\r\n', '/products/ScSV1MY89secsn1OWrw8m1IJJrpSFHgy/xlarge_20220912152527_apple_watch_series_8_aluminium_41mm_adiavrocho_me_esim_kai_palmografo_midnight_with_midnight_sport_band.jpeg', '434.00', 1, 1677074754, 1677074754, 1, 1),
+(8, 'Apple Polishing Cloth', '<p>Made with soft, nonabrasive material, the Polishing Cloth cleans any Apple display, including nano-texture glass, safely and effectively.</p>\r\n\r\n<p>81x160mm</p>\r\n\r\n<p>7.6mm thickness</p>\r\n\r\n<p>40gr weight</p>\r\n', '/products/VSB9iZbo_NsKXo_JJYH5zEWChW88qRta/20220420124447_d4a2e682.jpg', '27.00', 1, 1677074843, 1677074843, 1, 1),
+(9, 'Test Product', '<p>dasdas</p>\r\n', NULL, '1234.00', 1, 1677235874, 1677235874, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -258,7 +270,7 @@ ALTER TABLE `order_items`
 -- AUTO_INCREMENT για πίνακα `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT για πίνακα `user`

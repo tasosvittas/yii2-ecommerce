@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edd7679-4ff4-4f05-afa6-2c686fcfed12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/web/img/blank_image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii2-ecommerce.sql" beforeDir="false" afterPath="$PROJECT_DIR$/yii2-ecommerce.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1677054883969" duration="6230000" />
       <workItem from="1677071598923" duration="4248000" />
       <workItem from="1677155547052" duration="603000" />
-      <workItem from="1677226694665" duration="2849000" />
+      <workItem from="1677226694665" duration="4942000" />
     </task>
     <servers />
   </component>
